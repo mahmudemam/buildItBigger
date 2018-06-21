@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JokeActivity</string>
+    <string name="library_welcome_text">Welcome to an activity that you launched from an Android Library project. The image below is packaged with the library, as is this string!</string>
+</resources>
