@@ -21,7 +21,7 @@ public class MainActivityInstrumentedTest {
     @Test
     public void executeAsyncTask_returnsNonEmptyString() {
         try {
-            String result = new EndpointsAsyncTask(mRule.getActivity()).execute().get();
+            String result = mRule.getActivity().new EndpointsAsyncTask(mRule.getActivity()).execute().get();
 
             Log.i(TAG, result);
 
